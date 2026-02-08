@@ -1,4 +1,4 @@
-# Hello World Todo App
+# Todo App
 
 This is a simple Todo application built using React and TypeScript. The project demonstrates how to structure a React project, use TypeScript for type safety, and deploy the application to GitHub Pages.
 
