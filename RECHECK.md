@@ -1,1 +1,0 @@
-Temporary file created to trigger workflows. This will ensure deployment mechanisms trace better with linked integrity problems observed dialogs exposed; correcting branch alternations aimed workflow-action merges.
