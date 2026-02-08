@@ -1,25 +1,19 @@
 # Todo App
 
-This is a simple Todo application built using React and TypeScript. The project demonstrates how to structure a React project, use TypeScript for type safety, and deploy the application to GitHub Pages.
+This is a simple ToDo application built using React with TypeScript. The app allows you to manage tasks effectively with features to add, delete, and complete tasks.
 
-## Features
-
-- Add, delete, and update tasks
-- Track task completion
-- User-friendly interface
-
-## Getting Started
+## Setup Instructions
 
 ### Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/wilsonchengassistant/hello-world.git
+    git clone https://github.com/wilsonchengassistant/todo.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd hello-world
+    cd todo
     ```
 
 3. Install dependencies:
@@ -29,22 +23,24 @@ This is a simple Todo application built using React and TypeScript. The project 
 
 ### Running the App
 
+Run the development server:
 ```bash
 npm start
 ```
-
 The application will be served at `http://localhost:3000/`.
 
-### Building the App
+### Building for Production
 
-To create a production build, run:
+Create a production build:
 ```bash
 npm run build
 ```
+The build output will be in the `build/` directory.
 
 ### Testing
 
-To run tests:
+Run automated tests:
 ```bash
 npm test
 ```
+Tests will verify the app’s core functionality, such as adding, deleting, and completing tasks.
