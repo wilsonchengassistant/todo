@@ -77,7 +77,6 @@ function App() {
         const text = reader.result as string;
         const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
         const [header, ...data] = lines;
-        const cols = header.split(',').map(c => c.trim());
         const items = data.map(line => {
           const parts = line.split(',');
           return {
